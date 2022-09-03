@@ -6,6 +6,9 @@ mkdir name = create file
 rmdir name = remove file
 code . = open vscode
 touch (index.html) = create html file
+clear = clean all
+
+
 git status = how is it
 git add (index.html) = add html file
 git add . = add all
@@ -15,14 +18,18 @@ git log = show what happened
 git diff = show diffrent => if click Enter continue else click Q quit.
 cat (index.html) = show you full html file
 git commit -a -m "tow sec after working" = add and commit in same time.
-clear = clean all
+
+
 git restore index.html = back to your last change
 git restore . = back to your last change all file
 git restore --staged index.html = back file after add
 git restore --staged . = back all file after add
 git commit --amend -m "note" = change LAST note after commit
 git show d52524ca1d3a61f91622e31759d743182161b27d = show what is changed on that commit
+
+
 git branch = show all the branch
 git branch login-page = create another branch
 git checkout login-page = switch to another branch
-
+git merge login-page = add login.html to master(main)
+git branch -d login-page = remove login-page (not login.html)
