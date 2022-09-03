@@ -9,3 +9,8 @@ touch (index.html) = create html file
 git status = how is it
 git add (index.html) = add html file
 git add . = add all
+git cimmit -m "note" = write a note
+git log = show what happened
+git diff = show diffrent => if click Enter continue and click Q quit.
+cat (index.html) = show you full html file
+git commit -a -m "tow sec after working"
