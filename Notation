@@ -33,3 +33,5 @@ git branch login-page = create another branch
 git checkout login-page = switch to another branch
 git merge login-page = add login.html to master(main)
 git branch -d login-page = remove login-page (not login.html)
+
+git push = for adding in github
