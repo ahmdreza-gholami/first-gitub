@@ -1,0 +1,11 @@
+cd = directory
+cd .. = bsck directory
+pwd = where am i ?
+ls = list here
+mkdir name = create file
+rmdir name = remove file
+code . = open vscode
+touch (index.html) = create html file
+git status = how is it
+git add (index.html) = add html file
+git add . = add all
