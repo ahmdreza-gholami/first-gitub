@@ -35,3 +35,4 @@ git merge login-page = add login.html to master(main)
 git branch -d login-page = remove login-page (not login.html)
 
 git push = for adding in github
+git pull = if you edit file in github site , you shoud use this to update in your device.
