@@ -15,6 +15,7 @@ git add . = add all
 git cimmit -m "note" = write a note
 (commit come after add)
 git log = show what happened
+git log --oneline = show what happened in oneline
 git diff = show diffrent => if click Enter continue else click Q quit.
 cat (index.html) = show you full html file
 git commit -a -m "tow sec after working" = add and commit in same time.
@@ -36,3 +37,41 @@ git branch -d login-page = remove login-page (not login.html)
 
 git push = for adding in github
 git pull = if you edit file in github site , you shoud use this to update in your device.
+
+
+how add a project to github or gitlab 
+
+1-create folder and file
+pwd
+cd where you want
+mkdir folder
+cd folder
+git init
+touch file
+ls
+git status
+git add file 
+git commit -m "note"
+git status
+
+2-push files in github or gitlab
+git remote add origin https://......
+git branch -m main
+git push -u origin main
+
+3-create beanch and add
+git branch
+git branch name
+git push
+git checkout name
+touch file
+git add file
+git commit -m "note"
+git push (doesnt work)
+git push --set-upstream origin name
+
+4-delete branch
+git branch
+git checkout main
+git merge name
+git branch -d name
